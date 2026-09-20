@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Study Deck</title>
+</head>
+<body>
+    <header>
+        <h1>Study Deck</h1>
+        <p>Study smart, not hard! Use this app to create flashcards and study for your exams.</p>
+    </header>
+    <main>
+        <div>
+            <h2>Create New Deck</h2>
+            <form id="deck-form">
+                <input type="text" id="deck-name" placeholder="Deck Name" required>
+                <button type="submit">Create Deck</button>
+            </form>
+        </div>
+        <div>
+            <h2>Your Decks</h2>
+            <ul id="deck-list"></ul>
+        </div>
+        <div id="card-section" style="display: none;">
+            <h2 id="selected-deck-title">Deck Cards</h2>
+            <form id="card-form">
+                <input type="text" id="card-front" placeholder="Front (Question)" required>
+                <input type="text" id="card-back" placeholder="Back (Answer)" required>
+                <button type="submit">Add Card</button>
+            </form>
+            <h3>Existing Cards</h3>
+            <ul id="card-list"></ul>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

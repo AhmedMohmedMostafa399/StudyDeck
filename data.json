@@ -1,0 +1,8 @@
+{
+  "id": 12,
+  "deck_id": 3,
+  "front": "What is Newton's second law?",
+  "back": "F = m a",
+  "interval_days": 2,
+  "next_review": "2026-09-22"
+}
